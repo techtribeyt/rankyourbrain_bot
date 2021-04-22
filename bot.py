@@ -53,9 +53,11 @@ def run(mode = "expert", turbo = True):
     # getting HTML element that contains the question
     before_answer = browser.find_element_by_id("beforeAnswer")
     after_answer = browser.find_element_by_id("afterAnswer")
-    while True:
+    
+    # press space to start program once page opens (optionally - uncomment if you want to use this)
+    '''while True:
         if keyboard.is_pressed(' '):
-            break
+            break'''
     
     while True:
         try:
